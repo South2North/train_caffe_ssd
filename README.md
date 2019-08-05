@@ -217,11 +217,11 @@ for image_name in images_list:
 ```
 测试效果图：
 <div align="center">
-<img src="./result.png" width="90%" alt="无法显示">
+<img src="./result.png" width="80%" alt="无法显示">
 </div>
 测试效果图（GIF）：
 <div align="center">
-<img src="./result2.gif" width="80%" alt="无法显示">
+<img src="./result2.gif" width="60%" alt="无法显示">
 </div>
 
 ## 参考
