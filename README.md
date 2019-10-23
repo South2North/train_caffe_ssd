@@ -11,7 +11,7 @@
 - 因为标记框都是水平的矩形，而只要条幅倾斜一点，标记框内大部分区域都是没有物体的。所以后面**数据增广如果有旋转操作的话，之前的标记框就不适用了，只能重新标记**。这里建议先做旋转的增广，统一标注之后再做其他的增广。
 
 ### 2.3 数据增广
-使用这个[repo](https://github.com/Paperspace/DataAugmentationForObjectDetection)做数据增广。我做的增广包括小角度旋转、水平镜像和修改hsv值。根据里面的`quick-start.ipynb`很容易修改适来配自己的数据。最后得到训练集3041张和测试集605张。截取部分代码：
+使用这个[repo](https://github.com/Paperspace/DataAugmentationForObjectDetection)做数据增广。我做的增广包括小角度旋转、水平镜像和修改hsv值。根据里面的`quick-start.ipynb`很容易修改来适配自己的数据。最后得到训练集3041张和测试集605张。截取部分代码：
 ```python
 try:
     import xml.etree.cElementTree as ET
